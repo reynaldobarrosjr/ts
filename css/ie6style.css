@@ -1,0 +1,43 @@
+span.sf-sub-indicator { padding-left: 2px; }
+div#header { z-index: 2; position: relative; }
+div#featured-slider { z-index: 1; position: relative; }
+
+#feat-content a.readmore span, .entry a.readmore span { cursor: pointer; }
+div#search-form input#searchsubmit { font-size: 0; display:block; line-height: 0; }
+.nav li li { margin-bottom: 4px; }
+ul.nav li ul { padding-bottom: 8px; }
+
+#featured-area a.readmore span, #content-area a.readmore span, .reply-container a { display: inline-block; }
+span.current_arrow { top:-11px; }
+a.top_arrow { background: none !important; }
+
+ul.nav li ul { margin-top: 20px; }
+	ul.nav li ul ul { margin-top: 0px; }
+
+#feat-content a.readmore, .entry a.readmore { background:url("../images/ie6_readmore.png") no-repeat scroll top right; padding-right:20px; }
+
+.entry img.thumbnail { background:none; }
+div#footer-top { margin-top: -2px; }
+div#footer .widget { display: inline; }
+
+body#home { padding-bottom: 238px; }
+#control-bg { height: 97px; }
+
+div#content-top { margin-bottom: -2px; }
+#sidebar { margin-right: -24px; }
+.wp-pagenavi span.pages { color:#989898 !important; }
+
+.wp-pagenavi span.current, .wp-pagenavi span.extend, .wp-pagenavi a:active, .wp-pagenavi a:hover, .wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:visited { padding:11px 14px 11px 15px !important; }
+
+li.depth-1 .comment-wrap { width: 416px; }
+li.depth-2 .comment-wrap { width: 314px; }
+li.depth-3 .comment-wrap { width: 212px; }
+li.depth-4 .comment-wrap { width: 100px; }
+
+.pagefull_width li.depth-1 .comment-wrap { width: 685px; }
+.pagefull_width li.depth-2 .comment-wrap { width: 583px; }
+.pagefull_width li.depth-3 .comment-wrap { width: 481px; }
+.pagefull_width li.depth-4 .comment-wrap { width: 379px; }
+.pagefull_width li.depth-5 .comment-wrap { width: 277px; }
+
+#content-area h3#comments { padding-left: 5px !important; }
