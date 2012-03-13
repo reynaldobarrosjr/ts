@@ -55,7 +55,7 @@ Template Name: Blog Page
 								<div class="et_pt_blogentry clearfix">
 									<h2 class="et_pt_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 									
-									<p class="et_pt_blogmeta"><?php esc_html_e('Posted','13floor'); ?> <?php esc_html_e('by','13floor'); ?> <?php the_author_posts_link(); ?> <?php esc_html_e('on','13floor'); ?> <?php the_time( esc_attr(get_option('13floor_date_format'))) ?> <?php esc_html_e('in','13floor'); ?> <?php the_category(', ') ?> | <?php comments_popup_link(esc_html__('0 comments','13floor'), esc_html__('1 comment','13floor'), '% '.esc_html__('comments','13floor')); ?></p>
+									
 									
 									<?php $thumb = '';
 									$width = 184;

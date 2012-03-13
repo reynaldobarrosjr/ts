@@ -8,7 +8,6 @@
 				<div id="content-area">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<div class="entry post clearfix">
-						
 						<h1 class="title"><?php the_title(); ?></h1>
 						<?php $width = 136;
 							  $height = 136;

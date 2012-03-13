@@ -12,7 +12,7 @@
 					
 					<h1 class="title"><?php the_title(); ?></h1>
 						
-					<?php get_template_part('includes/postinfo'); ?>
+					
 					
 					<?php if (get_option('13floor_thumbnails') == 'on') { ?>
 						

@@ -277,8 +277,16 @@ div#footer { min-height: 45px; background: #1f1f1d url(images/footer.png) repeat
 #sidebar { float: right; width: 235px; margin: -25px -19px 0px 0px; }
 	#sidebar a { color: #ffffff; text-shadow: -1px -1px 1px #000000; }
 	#sidebar .widget { position: relative; padding: 0px 0px 16px; background: url(images/sblock-bottom.png) no-repeat bottom left; margin-bottom: 15px; }
-		#sidebar .widget h3.title { background: url(images/sidebar_titlebg.png) no-repeat; display: block;  padding: 30px 18px 19px 25px; font-size: 17px; color: #a9a883; text-shadow: -1px -1px 1px #000000; letter-spacing: 0px; text-transform: lowercase; }
-		#sidebar .widget .wrapper { background: url(images/sidebar-widget-bg.png) repeat-y; }
+#sidebar .widget h3.title {
+    background: url("images/sidebar_titlebg.png") no-repeat scroll 0 0 transparent;
+    color: #7CCFDA;
+    display: block;
+    font-size: 17px;
+    letter-spacing: 0;
+    padding: 30px 18px 19px 25px;
+    text-shadow: -1px -1px 1px #000000;
+    text-transform: lowercase;
+}		#sidebar .widget .wrapper { background: url(images/sidebar-widget-bg.png) repeat-y; }
 			#sidebar .widget .widget_content { background: url(images/sidebar_widget_separator.png) no-repeat; padding: 10px; }
 				
 				#sidebar .widget .widget_content ul { margin: -8px -3px 0px -8px; }
