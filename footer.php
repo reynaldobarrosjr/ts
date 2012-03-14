@@ -12,7 +12,7 @@
 		<?php }; ?>
 				
 		<div id="copyright" class="clearfix">
-			<p><?php esc_html_e('Powered by ','13floor'); ?> <a href="http://www.tecscap.com.br">2012 Tecscap</a> | <?php esc_html_e('Desenvolvido por ','13floor'); ?> <a href="http://www.trevobr.com">Trevo</a></p>
+			<p><a href="http://www.tecscap.com.br">2012 Tecscap</a> | <?php esc_html_e('Desenvolvido por ','13floor'); ?> <a href="http://www.trevobr.com">Trevo</a></p>
 		</div> <!-- end #copyright -->
 			
 	</div> <!-- end #wrap -->
