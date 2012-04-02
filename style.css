@@ -66,6 +66,7 @@ p {
     line-height: 22px;
     padding-bottom: 10px;
 }
+p.sidebar{color: #fff;}
 strong { font-weight: bold; color: #1c1c1c; }
 cite, em, i { font-style: italic; }
 pre, code { font-family: Courier New, monospace; margin-bottom: 10px; }
