@@ -268,8 +268,15 @@ div#footer { min-height: 45px; background: #1f1f1d url(images/footer.png) repeat
 									#footer .widget .widget_content ul ul ul ul a { padding-left: 98px; background-position: 73px 17px; }
 									
 #copyright { margin: 0px auto; width: 1000px; text-align: left; padding: 20px 0px 0px; font-size: 11px; }
-	#copyright p { float: right; color: #18191a; text-shadow: 0px 1px 1px #6d818b; }
-		#copyright p a { color: #15181a; font-weight: bold; }
+	#copyright p {
+    color: #67C2D6;
+    float: right;
+    text-shadow: 0 1px 1px #000000;
+}
+		#copyright p a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
 		
 /*------------------------------------------------*/
 /*--------------------[SIDEBAR]-------------------*/
