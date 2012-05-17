@@ -62,9 +62,10 @@ h4 { font-size: 18px; }
 h5 { font-size: 16px; }
 h6 { font-size: 14px; }
 p {
-    color: #232B30;
+    color: #000;
     line-height: 22px;
     padding-bottom: 10px;
+    font-size: 1.2em;
 }
 p.sidebar{color: #fff;}
 strong { font-weight: bold; color: #1c1c1c; }

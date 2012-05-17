@@ -9,6 +9,7 @@
 		
 	$featured_cat = esc_attr(get_option('13floor_feat_cat'));
 	$featured_num = esc_attr(get_option('13floor_featured_num'));
+	$featured_num = 5;
 	if ($featured_num > $maxSlides) $featured_num = $maxSlides;
 	
 	if (get_option('13floor_use_pages') == 'false') query_posts("showposts=$featured_num&cat=".get_catId($featured_cat));
@@ -62,6 +63,7 @@
 			<?php for ($i = 1; $i <= $featured_num; $i++) { ?>
 			
 				<div class="slide">
+					<? echo($featured_num);?>
 					<div class="description">
 						<h2 class="title"><a href="<?php echo($arr[$i]["permalink"]); ?>" title="<?php printf(esc_attr__('Permanent Link to %s', '13floor'), $arr[$i]["fulltitle"]) ?>"><?php echo esc_html($arr[$i]["title"]); ?></a></h2>
 						<p><?php echo($arr[$i]["excerpt"]); ?></p>
