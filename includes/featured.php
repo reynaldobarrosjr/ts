@@ -63,7 +63,7 @@
 			<?php for ($i = 1; $i <= $featured_num; $i++) { ?>
 			
 				<div class="slide">
-					<? echo($featured_num);?>
+					
 					<div class="description">
 						<h2 class="title"><a href="<?php echo($arr[$i]["permalink"]); ?>" title="<?php printf(esc_attr__('Permanent Link to %s', '13floor'), $arr[$i]["fulltitle"]) ?>"><?php echo esc_html($arr[$i]["title"]); ?></a></h2>
 						<p><?php echo($arr[$i]["excerpt"]); ?></p>
