@@ -59,6 +59,19 @@
 	<div id="featured-area">
 
 		<div id="feat-content" class="clearfix<?php if(get_option('13floor_custom_animation') == 'on') echo(' custom_animation'); ?>">
+				<div class="slide">
+					
+					<div class="description">
+						<h2 class="title"><a href="#" title="A oficina">A oficina</a></h2>
+						<p>Conheça a história de nossa oficina</p>
+						
+						<a href="#" class="readmore"><span>Ler mais sobre a oficina</span></a>
+					</div>
+					
+					<a href="<?php echo($arr[$i]["permalink"]); ?>" title="<?php printf(esc_attr__('Permanent Link to %s', '13floor'), $arr[$i]["fulltitle"]) ?>">
+						<?php print_thumbnail($arr[$i]["thumb"], $arr[$i]["use_timthumb"], $arr[$i]["fulltitle"], $width, $height, 'featured_image'); ?>
+					</a>
+				</div> <!-- end .slide -->
 			
 			<?php for ($i = 1; $i <= $featured_num; $i++) { ?>
 			
@@ -86,9 +99,13 @@
 		<div id="controls" class="clearfix">
 			<a href="" id="prevlink"><?php esc_html_e('Prev','13floor'); ?></a>
 			<a href="" id="nextlink"><?php esc_html_e('Next','13floor'); ?></a>
+			<a class="control_tab" id="hide_control" href="#">
+					<span class="heading">A oficina</span>
+					<span class="excerpt">30 anos consertando seu</span>
+				</a>
 			
 			<?php for ($i = 1; $i <= $featured_num; $i++) { ?>
-				<a class="control_tab<?php if($i == 1) echo(" active"); if($i == $maxSlides) echo(' last'); ?>" href="#">
+				<a class="control_tab<?php if($i == 0) echo(" active"); if($i == $maxSlides) echo(' last'); ?>" href="#">
 					<span class="heading"><?php if($arr[$i]["small_title"] <> '') echo($arr[$i]["small_title"]); else echo($arr[$i]["small_title_default"]); ?></span>
 					<span class="excerpt"><?php if($arr[$i]["small_excerpt"] <> '') echo($arr[$i]["small_excerpt"]); else echo($arr[$i]["small_excerpt_default"]); ?></span>
 				</a>
