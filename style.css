@@ -41,7 +41,7 @@ html { background-color: #222325; }
 body { text-align: center; line-height: 21px; font-family: Arial, Verdana, sans-serif; font-size: 12px; padding-bottom: 238px; color: #989898; }
 	body#home { padding-bottom: 145px; }
 #bg1 { background: url(images/main-bg.jpg) repeat-y top center; float: left; width: 100%; }
-#bg2 { background: url(images/footer-bg.jpg) no-repeat bottom center; float: left; width: 100%; padding-bottom: 146px; }
+#bg2 {  float: left; width: 100%; padding-bottom: 146px; }
 #wrap { background: url(images/top-bg.jpg) repeat-x top center;  }
 
 a { text-decoration: none; color: #5f5f5f; }
@@ -146,7 +146,10 @@ ul.nav { float: left; margin-top: -18px; height: 74px; }
 /*------------------------------------------------*/		
 		
 #featured-area { background: url(images/featured.png) no-repeat; position: relative; margin: 0 auto; width: 1001px; text-align: left; min-height: 424px; }
-	#feat-content { height:300px; }
+	#feat-content {
+    height: 300px;
+    margin-bottom: 96px;
+	}
 		#feat-content .slide { padding: 45px 84px 0px 86px; width: 807px; height: 255px; }
 			#feat-content .description {
     color: #484444;
@@ -172,14 +175,23 @@ ul.nav { float: left; margin-top: -18px; height: 74px; }
 					#feat-content a.readmore span, #content-area a.readmore span { display: block; background: url(images/readmore-sprite.png) top left no-repeat; padding:0px 0 0px 44px; height:50px; }
 			#feat-content img.featured_image { float: right; margin-top: 10px; }
 	
-	#control-bg { background:url("images/buttons-bg.png") repeat-x scroll 0 0 transparent; bottom:0; height:99px; left:80px; position:absolute; width:670px; }
+	#control-bg {  bottom:0; height:99px; left:80px; position:absolute; width:670px; }
 	
-	#controls { position: relative; background:url("images/active_tab_bg.png") no-repeat scroll 89px 7px transparent; padding:26px 0 0 84px; position:relative; }	
+	#controls {
+    padding: 26px 0 0 60px;
+    position: relative;
+}	
 		#controls a#prevlink, #controls a#nextlink { position: absolute; top: 26px; display: block; width: 78px; height: 97px; text-indent: -9999px; }
 		#controls a#prevlink { left: 0px; }
 		#controls a#nextlink { right: 0px; }
 		
-		a.control_tab { display: block; width: 152px; height: 75px; float: left; /*background: url(images/control-rightbg.png) repeat-y top right;*/ padding: 21px 30px 0px 26px; }
+		a.control_tab {
+    display: block;
+    float: left;
+    height: 75px;
+    padding: 21px 30px 0 26px;
+    width: 110px;
+}
 		a.control_tab.last { background: none; }
 		a.control_tab:hover { text-decoration: none; }
 			a.control_tab span.heading {
