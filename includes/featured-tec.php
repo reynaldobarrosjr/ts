@@ -73,6 +73,7 @@
 					</div>
 					
 					<a href="<?php echo($arr[$i]["permalink"]); ?>" title="<?php printf(esc_attr__('Permanent Link to %s', '13floor'), $arr[$i]["fulltitle"]) ?>">
+					    <img src="http://www.tecscap.com.br/wp-content/themes/13Floor/images/tecscap-oficina-centro-rj-dest.png" 
 						<?php print_thumbnail($arr[$i]["thumb"], $arr[$i]["use_timthumb"], $arr[$i]["fulltitle"], $width, $height, 'featured_image'); ?>
 					</a>
 				</div> <!-- end .slide -->
