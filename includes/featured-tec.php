@@ -63,9 +63,13 @@
 					
 					<div class="description">
 						<h2 class="title"><a href="#" title="A oficina">A oficina</a></h2>
-						<p>Conheça a história de nossa oficina</p>
+						<p>A TecScap est&aacute; h&aacute; 35 anos no mercado sempre melhorando a qualidade do seu autom&oacute;vel.</p>
+						<p>Conhe&ccedil;a a hist&oacute;ria de nossa oficina e saiba mais sobre os serviços que oferecemos.</p>
+						<p>No menu abaixo voc&ecirc; pode conferir cada servi&ccedil;o em detalhes.</p>
 						
-						<a href="#" class="readmore"><span>Ler mais sobre a oficina</span></a>
+						
+						
+						<a href="http://www.tecscap.com.br/sobre-a-oficina/" class="readmore"><span>Ler mais sobre a oficina</span></a>
 					</div>
 					
 					<a href="<?php echo($arr[$i]["permalink"]); ?>" title="<?php printf(esc_attr__('Permanent Link to %s', '13floor'), $arr[$i]["fulltitle"]) ?>">
