@@ -64,7 +64,7 @@
 					<div class="description">
 						<h2 class="title"><a href="#" title="A oficina">A oficina</a></h2>
 						<p>A TecScap est&aacute; h&aacute; 35 anos no mercado sempre melhorando a qualidade do seu autom&oacute;vel.</p>
-						<p>Conhe&ccedil;a a hist&oacute;ria de nossa oficina e saiba mais sobre os serviços que oferecemos.</p>
+						<p>Conhe&ccedil;a a hist&oacute;ria de nossa oficina e saiba mais sobre os servi&ccedil;os que oferecemos.</p>
 						<p>No menu abaixo voc&ecirc; pode conferir cada servi&ccedil;o em detalhes.</p>
 						
 						
